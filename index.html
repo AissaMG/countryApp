@@ -1,0 +1,131 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Country App</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <!-- Icon -->
+        <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+
+        <!-- Bootstrap Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap Link -->
+
+
+        <!-- Font Awesome Cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <!-- Font Awesome Cdn -->
+
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+    </head>
+    <body>
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" id="logo"><span>C</span>ountry <span>App</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#book">Apprendre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Tester</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Recherche</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Home Section Start -->
+        <div class="home">
+            <div class="content">
+                <h5>Bienvenu sur Travel Country</h5>
+                <h1>Apprenez sur <span class="changecontent"></span></h1>
+                <p>A travers ce site, Vous serrez capable d'apprendre plus sur tous les pays par continent.</p>
+                <a href="#book">A vous de jouer</a>
+            </div>
+        </div>
+        <!-- Home Section End -->
+
+        <!-- Section Book Start -->
+        <section class="book" id="book">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6 py-3 py-md-0">
+                            <p style="margin-bottom: 20%;"></p>
+                            <h2 style="font-weight: bold;">Les informations <span>des pays</span> </h2>
+                            <p>Pour plus de connaissance sur n'importe quel pays? c'est l'endroit idéal.<br>
+                               Découvrez les informations de tous les pays par continent avec ce jeu.
+                            </p>
+                            <a class="btn btn-warning" href="learn .html" role="button">Allons apprendre</a>
+                        </div>
+
+                        <div class="col-md-6 py-3 py-md-0">
+                            <div class="img">
+                                <img src="./assets/images/world3.svg" alt="">
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+        </section>
+        <!-- Section Book End -->
+
+        <!-- About Start -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-3 py-md-0">
+                        <div class="img">
+                            <img src="./assets/images/world1.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 py-3 py-md-0">
+                        <P style="margin-bottom: 20%;"></P>
+                        <h2>Devinez le nom <span>des pays</span></h2>
+                        <p> Voyons voir si vous avez retenu les informations de certains pays.<br>
+                            Vous allez voir des drapeaux affichés, à vous de savoir à quel pays ça appartient.
+                        </p>
+                        <a class="btn btn-warning" href="quiz.html" role="button">Allons tester...</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- About End -->
+
+        <!-- Footer Start -->
+        <footer id="footer">
+            <h4><span>C</span>ountry <span>App</span></h4>
+            <p>Designed By <a href="#">Aissa MAIGA</a><br>&copy;Copyright Aissa MAIGA. All Rights Reserved </p> 
+        </footer>
+        <!-- Footer End -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
