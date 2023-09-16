@@ -198,7 +198,7 @@
   .continents-container > .continent {
     font-family: "Poppins", sans-serif;
     color: #fff;
-    background-color:var(--blue-color);
+    background-color:#ffa500;
     padding: 0 0.4rem;
     border-radius: 1rem;
     cursor: pointer;
