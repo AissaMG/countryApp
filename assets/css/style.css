@@ -83,8 +83,8 @@
     animation: changetext 10s infinite linear;
 }
 @keyframes changetext{
-    0%{content: "France";}
-    10%{content: "Mali";}
+    0%{content: "Mali";}
+    10%{content: "France";}
     20%{content: "United States";}
     30%{content: "China";}
     40%{content: "India";}
@@ -139,6 +139,7 @@
 .book{
     background: #f9f9f9;
     padding: 50px;
+    margin-top: 20px;
 }
 .book .row{
     margin-top: 30px;
@@ -167,7 +168,7 @@
 /* About Start */
 .about{
     padding: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     background: #f9f9f9;
 }
 
@@ -216,9 +217,9 @@
 /* Footer Start */
 #footer{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    background: gray
+    background: white
 }
 #footer h4{
     font-weight: 600;
